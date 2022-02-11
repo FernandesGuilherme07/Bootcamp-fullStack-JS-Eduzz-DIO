@@ -8,13 +8,38 @@
     <title>Tags HTML5</title>
 
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .header {
             background-color: aquamarine;
             width: 100%;
             display: flex;
             justify-content: flex-end;
         }
+        .header div:hover {
+            cursor: pointer;
+            background-color: rgb(145, 177, 206);
+            border-radius: 5px;
+        }
+        p, h1 {
+            margin: 10px;
+            
+            padding: 10px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
         div {
+            margin: 5px 0;
             padding: 20px;
         }
         a {
@@ -28,11 +53,13 @@
         }
 
         footer {
+            width: 100%;
             background-color: rgb(133, 151, 151);
             display: flex;
             align-items: center;
             justify-content: center;
             height: 50px;
+            margin: 0;
             margin-top: 30px;
         }
 
